@@ -1,0 +1,23 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.input {
+  height: 20px;
+  outline: 0;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.input:focus {
+  box-shadow: 20px 5px blue;
+}
+.delete {
+  padding: 3px 5px;
+  border: none;
+  border-radius: 4px;
+}

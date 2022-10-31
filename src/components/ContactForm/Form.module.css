@@ -1,0 +1,40 @@
+.form {
+  max-width: 200px;
+  margin: 15px auto;
+  padding: 30px;
+  box-shadow: 3px 2px 2px 3px rgb(233, 227, 227);
+  border-radius: 2px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-family: revert;
+  font-size: 16px;
+  font-weight: 400;
+}
+.label:not(:last-child) {
+  margin-bottom: 10px;
+}
+.input {
+  height: 20px;
+  outline: 0;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.input:focus {
+  box-shadow: 20px 5px blue;
+}
+.submit {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.submit:active {
+  background-color: blue;
+  color: white;
+}
